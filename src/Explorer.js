@@ -19,7 +19,7 @@ const Explorer = ({ entity }) => {
           display: "flex",
           gap: "4px",
           fontSize: 20,
-          color: "crimson",
+          color: "tomato",
           paddingBottom: "4px",
         }}
       >

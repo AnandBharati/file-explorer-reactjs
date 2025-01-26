@@ -23,7 +23,20 @@ export default function App() {
 
   return (
     <div className="App">
+      <h1> File Explorer</h1>
       <Explorer entity={sortItems(jsonData)} />
+      <h5
+        style={{
+          fontStyle: "italic",
+          position: "absolute",
+          bottom: 0,
+          left: "50%",
+          translate: "-50%",
+          color: "GrayText",
+        }}
+      >
+        A sample application using React js
+      </h5>
     </div>
   );
 }
